@@ -1,0 +1,934 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/styles/TestAnalysis.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************/
+.TestAnalysis_container__Z9uCy {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.TestAnalysis_main__IjWBG {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+@media (max-width: 768px) {
+  .TestAnalysis_container__Z9uCy {
+    padding: 12px;
+  }
+  
+  .TestAnalysis_main__IjWBG {
+    gap: 24px;
+  }
+} 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/TestAnalysisContent.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************/
+.TestAnalysisContent_container__86iNs {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .TestAnalysisContent_container__86iNs {
+    padding: 12px;
+    gap: 24px;
+  }
+} 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/ScoreDisplay/ScoreDisplay.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ScoreDisplay_container__SMZL_ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.ScoreDisplay_scoreCircle__MpgSV {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.ScoreDisplay_scoreValue__LfoV7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.ScoreDisplay_number__ikCxt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #2D3436;
+}
+
+.ScoreDisplay_label__HXA5e {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #636E72;
+}
+
+.ScoreDisplay_description__oNP8N {
+  font-family: '思源宋体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .ScoreDisplay_scoreCircle__MpgSV {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .ScoreDisplay_number__ikCxt {
+    font-size: 48px;
+  }
+  
+  .ScoreDisplay_label__HXA5e {
+    font-size: 16px;
+  }
+  
+  .ScoreDisplay_description__oNP8N {
+    font-size: 20px;
+  }
+} 
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/EmotionAnalysis/EmotionAnalysis.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************/
+.EmotionAnalysis_container___nJIV {
+  padding: 24px;
+}
+
+.EmotionAnalysis_title__HuTTE {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.EmotionAnalysis_chartContainer__nD2KD {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 32px;
+}
+
+.EmotionAnalysis_detailsContainer__eTzyD {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 20px;
+  gap: 20px;
+}
+
+.EmotionAnalysis_dimensionCard__S_QLy {
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.EmotionAnalysis_dimensionCard__S_QLy:hover {
+  transform: translateY(-4px);
+}
+
+.EmotionAnalysis_dimensionTitle___pLVz {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #2D3436;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.EmotionAnalysis_score__4y0YY {
+  font-family: 'Poppins', sans-serif;
+  color: #FF6B6B;
+  font-weight: bold;
+}
+
+.EmotionAnalysis_explanation__Uu7DY {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.EmotionAnalysis_suggestion__qDJbK {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #4ECDC4;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .EmotionAnalysis_container___nJIV {
+    padding: 16px;
+  }
+  
+  .EmotionAnalysis_chartContainer__nD2KD {
+    height: 300px;
+  }
+  
+  .EmotionAnalysis_detailsContainer__eTzyD {
+    grid-template-columns: 1fr;
+  }
+} 
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/common/CollapsiblePanel/CollapsiblePanel.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.CollapsiblePanel_panel__BHvy6 {
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.CollapsiblePanel_header__qATmP {
+  width: 100%;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  background: #FFFFFF;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.CollapsiblePanel_header__qATmP:hover {
+  background: #F8F8F8;
+}
+
+.CollapsiblePanel_icon__SXKmj {
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.CollapsiblePanel_title__tibyl {
+  flex: 1 1;
+  text-align: left;
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  color: #2D3436;
+}
+
+.CollapsiblePanel_arrow__ccGnl {
+  font-size: 12px;
+  color: #636E72;
+}
+
+.CollapsiblePanel_content__qaOBv {
+  padding: 16px;
+  background: #FFFFFF;
+  overflow: hidden;
+} 
+/*!****************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/DetailedReport/DetailedReport.module.css ***!
+  \****************************************************************************************************************************************************************************************************************************************************************************************************************/
+.DetailedReport_container___Wz7u {
+  padding: 24px;
+}
+
+.DetailedReport_title__oOr5y {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.DetailedReport_sectionIcon__pLLMC {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.DetailedReport_sectionContent__EoH0r {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.DetailedReport_contentItem__57C16 {
+  font-family: '思源宋体', sans-serif;
+  font-size: 16px;
+  color: #636E72;
+  line-height: 1.6;
+  padding-left: 24px;
+  position: relative;
+}
+
+.DetailedReport_contentItem__57C16::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: #4ECDC4;
+}
+
+.DetailedReport_highlight__DTT9P {
+  color: #2D3436;
+  font-weight: 500;
+  background: rgba(78, 205, 196, 0.1);
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+.DetailedReport_illustration__wtkFc {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .DetailedReport_container___Wz7u {
+    padding: 16px;
+  }
+  
+  .DetailedReport_title__oOr5y {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .DetailedReport_contentItem__57C16 {
+    font-size: 14px;
+  }
+  
+  .DetailedReport_illustration__wtkFc {
+    margin-top: 24px;
+  }
+} 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/PersonalizedAdvice/PersonalizedAdvice.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.PersonalizedAdvice_container__x_cMm {
+  padding: 24px;
+}
+
+.PersonalizedAdvice_title__cJbOJ {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.PersonalizedAdvice_filters__KXJHi {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.PersonalizedAdvice_filterButton__ODeeN {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #F0F0F0;
+  color: #636E72;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.PersonalizedAdvice_filterButton__ODeeN.PersonalizedAdvice_active__ck2Ci {
+  background: var(--accent-color);
+  color: #FFFFFF;
+}
+
+.PersonalizedAdvice_adviceGrid__7cJM6 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 24px;
+  gap: 24px;
+}
+
+.PersonalizedAdvice_adviceCard__PO4Kv {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-top: 4px solid var(--card-color);
+  transition: transform 0.3s ease;
+}
+
+.PersonalizedAdvice_adviceCard__PO4Kv:hover {
+  transform: translateY(-4px);
+}
+
+.PersonalizedAdvice_cardHeader___hyW3 {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.PersonalizedAdvice_typeIcon__1JkYv {
+  font-size: 24px;
+}
+
+.PersonalizedAdvice_cardTitle__jqMk1 {
+  flex: 1 1;
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #2D3436;
+  margin: 0;
+}
+
+.PersonalizedAdvice_cardActions__I0Y6c {
+  display: flex;
+  gap: 8px;
+}
+
+.PersonalizedAdvice_actionButton__BesPu {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.PersonalizedAdvice_actionButton__BesPu:hover {
+  transform: scale(1.1);
+}
+
+.PersonalizedAdvice_description__hQ9TI {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.PersonalizedAdvice_actionList__Oq27b {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.PersonalizedAdvice_actionItem__8AniP {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #2D3436;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.PersonalizedAdvice_actionItem__8AniP::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: var(--card-color);
+}
+
+.PersonalizedAdvice_priority__QZfCM {
+  font-family: '思源黑体', sans-serif;
+  font-size: 12px;
+  color: #636E72;
+}
+
+.PersonalizedAdvice_priority-high__fmMjA {
+  color: #FF6B6B;
+  font-weight: bold;
+}
+
+.PersonalizedAdvice_priority-medium__5YJV6 {
+  color: #FFD93D;
+  font-weight: bold;
+}
+
+.PersonalizedAdvice_priority-low__HmpfL {
+  color: #4ECDC4;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .PersonalizedAdvice_container__x_cMm {
+    padding: 16px;
+  }
+  
+  .PersonalizedAdvice_filters__KXJHi {
+    padding-bottom: 12px;
+  }
+  
+  .PersonalizedAdvice_adviceGrid__7cJM6 {
+    grid-template-columns: 1fr;
+  }
+  
+  .PersonalizedAdvice_adviceCard__PO4Kv {
+    padding: 16px;
+  }
+} 
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/DataVisualization/DataVisualization.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************/
+.DataVisualization_container__W8vLL {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.DataVisualization_title__INyZp {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.DataVisualization_tabs__i6kvc {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.DataVisualization_tab__b1PX9 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #F0F0F0;
+  color: #636E72;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.DataVisualization_tab__b1PX9.DataVisualization_active__CQF1K {
+  background: #4ECDC4;
+  color: #FFFFFF;
+}
+
+.DataVisualization_tabIcon__gYqMY {
+  font-size: 16px;
+}
+
+.DataVisualization_chartDescription__xE9G0 {
+  text-align: center;
+  color: #636E72;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: '思源宋体', sans-serif;
+}
+
+.DataVisualization_chartContainer__ulAPv {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 24px;
+}
+
+.DataVisualization_legend__6JpWO {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.DataVisualization_legendItem__LnpTo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+}
+
+.DataVisualization_legendColor__G_9LH {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.DataVisualization_insights__tXMmm {
+  padding: 16px;
+  background: #F8F9FA;
+  border-radius: 8px;
+}
+
+.DataVisualization_insightsTitle__YAcYO {
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  color: #2D3436;
+  margin-bottom: 12px;
+}
+
+.DataVisualization_insightsList__NSxC0 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.DataVisualization_insightsList__NSxC0 li {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+  padding-left: 16px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.DataVisualization_insightsList__NSxC0 li::before {
+  content: '•';
+  position: absolute;
+  left: 4px;
+  color: #4ECDC4;
+}
+
+@media (max-width: 768px) {
+  .DataVisualization_container__W8vLL {
+    padding: 16px;
+  }
+  
+  .DataVisualization_title__INyZp {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .DataVisualization_chartContainer__ulAPv {
+    height: 300px;
+  }
+  
+  .DataVisualization_tabs__i6kvc {
+    padding-bottom: 12px;
+  }
+  
+  .DataVisualization_tab__b1PX9 {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+} 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/ShareResults/ShareResults.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+.ShareResults_container__7iAZy {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.ShareResults_title__qV1ru {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.ShareResults_previewCard__lAtJ6 {
+  background: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.ShareResults_previewHeader__3pmDA {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.ShareResults_previewHeader__3pmDA h3 {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #2D3436;
+  margin: 0;
+}
+
+.ShareResults_previewNote__MP_ai {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+}
+
+.ShareResults_messageInput___zJpL {
+  width: 100%;
+  min-height: 80px;
+  padding: 12px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  resize: vertical;
+  margin-bottom: 16px;
+}
+
+.ShareResults_previewStats__h66xp {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  border-top: 1px solid #E8E8E8;
+}
+
+.ShareResults_statItem__YBrHo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.ShareResults_statValue___5Tc4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2D3436;
+}
+
+.ShareResults_statLabel__U_ZUV {
+  font-family: '思源黑体', sans-serif;
+  font-size: 12px;
+  color: #636E72;
+}
+
+.ShareResults_shareOptions__IkRV3 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.ShareResults_platformButtons__krKKS {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.ShareResults_platformButton__QMsjJ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ShareResults_platformButton__QMsjJ:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.ShareResults_platformIcon__kQDoE {
+  font-size: 24px;
+}
+
+.ShareResults_platformName__G5_bl {
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  color: #2D3436;
+}
+
+.ShareResults_copyLinkButton__8QDXB {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4ECDC4;
+  color: #FFFFFF;
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.ShareResults_copyLinkButton__8QDXB:hover {
+  background: #45B7B0;
+}
+
+.ShareResults_copySuccess__lzDjM {
+  position: absolute;
+  right: 12px;
+  background: #2D3436;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.ShareResults_qrModal__GicAi {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.ShareResults_qrContent___tX83 {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.ShareResults_closeButton__5ghUA {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #636E72;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .ShareResults_container__7iAZy {
+    padding: 16px;
+  }
+  
+  .ShareResults_platformButtons__krKKS {
+    gap: 12px;
+  }
+  
+  .ShareResults_platformButton__QMsjJ {
+    padding: 12px;
+  }
+  
+  .ShareResults_statValue___5Tc4 {
+    font-size: 20px;
+  }
+} 
+/*!************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[14].oneOf[7].use[3]!./app/TestAnalysis/components/UserFeedback/UserFeedback.module.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************************************/
+.UserFeedback_container__MnPPm {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.UserFeedback_title__v7IvP {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.UserFeedback_feedbackForm__Ud865 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.UserFeedback_rating__odaro {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.UserFeedback_ratingLabel__beOes {
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  color: #2D3436;
+}
+
+.UserFeedback_star__OjZqA {
+  font-size: 24px;
+  color: #E8E8E8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.UserFeedback_star__OjZqA.UserFeedback_filled__mZLyy {
+  color: #FFD93D;
+}
+
+.UserFeedback_feedbackInput__4vRq7 {
+  width: 100%;
+  min-height: 80px;
+  padding: 12px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.UserFeedback_error__PO1DF {
+  color: #FF6B6B;
+  font-size: 14px;
+  font-family: '思源黑体', sans-serif;
+}
+
+.UserFeedback_submitButton__fTxVx {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4ECDC4;
+  color: #FFFFFF;
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.UserFeedback_submitButton__fTxVx:hover {
+  background: #45B7B0;
+}
+
+.UserFeedback_successMessage__bc7Nf {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #4ECDC4;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .UserFeedback_container__MnPPm {
+    padding: 16px;
+  }
+  
+  .UserFeedback_title__v7IvP {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .UserFeedback_feedbackInput__4vRq7 {
+    min-height: 60px;
+  }
+} 

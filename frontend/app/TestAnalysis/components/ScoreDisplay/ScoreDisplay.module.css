@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.scoreCircle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.scoreValue {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.number {
+  font-family: 'Poppins', sans-serif;
+  font-size: 64px;
+  font-weight: bold;
+  color: #2D3436;
+}
+
+.label {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #636E72;
+}
+
+.description {
+  font-family: '思源宋体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .scoreCircle {
+    width: 200px;
+    height: 200px;
+  }
+  
+  .number {
+    font-size: 48px;
+  }
+  
+  .label {
+    font-size: 16px;
+  }
+  
+  .description {
+    font-size: 20px;
+  }
+} 

@@ -1,0 +1,72 @@
+.container {
+  padding: 24px;
+}
+
+.title {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.sectionIcon {
+  font-size: 20px;
+  margin-right: 8px;
+}
+
+.sectionContent {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contentItem {
+  font-family: '思源宋体', sans-serif;
+  font-size: 16px;
+  color: #636E72;
+  line-height: 1.6;
+  padding-left: 24px;
+  position: relative;
+}
+
+.contentItem::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: #4ECDC4;
+}
+
+.highlight {
+  color: #2D3436;
+  font-weight: 500;
+  background: rgba(78, 205, 196, 0.1);
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+
+.illustration {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .contentItem {
+    font-size: 14px;
+  }
+  
+  .illustration {
+    margin-top: 24px;
+  }
+} 

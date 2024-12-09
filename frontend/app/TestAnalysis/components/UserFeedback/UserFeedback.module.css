@@ -1,0 +1,100 @@
+.container {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ratingLabel {
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  color: #2D3436;
+}
+
+.star {
+  font-size: 24px;
+  color: #E8E8E8;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.star.filled {
+  color: #FFD93D;
+}
+
+.feedbackInput {
+  width: 100%;
+  min-height: 80px;
+  padding: 12px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  resize: vertical;
+}
+
+.error {
+  color: #FF6B6B;
+  font-size: 14px;
+  font-family: '思源黑体', sans-serif;
+}
+
+.submitButton {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4ECDC4;
+  color: #FFFFFF;
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #45B7B0;
+}
+
+.successMessage {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #4ECDC4;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .feedbackInput {
+    min-height: 60px;
+  }
+} 

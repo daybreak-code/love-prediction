@@ -1,0 +1,142 @@
+.container {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.tab {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #F0F0F0;
+  color: #636E72;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.tab.active {
+  background: #4ECDC4;
+  color: #FFFFFF;
+}
+
+.tabIcon {
+  font-size: 16px;
+}
+
+.chartDescription {
+  text-align: center;
+  color: #636E72;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: '思源宋体', sans-serif;
+}
+
+.chartContainer {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 24px;
+}
+
+.legend {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+.legendItem {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+}
+
+.legendColor {
+  width: 12px;
+  height: 12px;
+  border-radius: 2px;
+}
+
+.insights {
+  padding: 16px;
+  background: #F8F9FA;
+  border-radius: 8px;
+}
+
+.insightsTitle {
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  color: #2D3436;
+  margin-bottom: 12px;
+}
+
+.insightsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.insightsList li {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+  padding-left: 16px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.insightsList li::before {
+  content: '•';
+  position: absolute;
+  left: 4px;
+  color: #4ECDC4;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .title {
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .chartContainer {
+    height: 300px;
+  }
+  
+  .tabs {
+    padding-bottom: 12px;
+  }
+  
+  .tab {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+} 

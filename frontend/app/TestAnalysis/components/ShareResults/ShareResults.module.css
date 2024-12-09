@@ -1,0 +1,200 @@
+.container {
+  padding: 24px;
+  background: #FFFFFF;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.title {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.previewCard {
+  background: #F8F9FA;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.previewHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.previewHeader h3 {
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #2D3436;
+  margin: 0;
+}
+
+.previewNote {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+}
+
+.messageInput {
+  width: 100%;
+  min-height: 80px;
+  padding: 12px;
+  border: 1px solid #E8E8E8;
+  border-radius: 8px;
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  resize: vertical;
+  margin-bottom: 16px;
+}
+
+.previewStats {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px 0;
+  border-top: 1px solid #E8E8E8;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.statValue {
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2D3436;
+}
+
+.statLabel {
+  font-family: '思源黑体', sans-serif;
+  font-size: 12px;
+  color: #636E72;
+}
+
+.shareOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.platformButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.platformButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 16px;
+  border: none;
+  border-radius: 12px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.platformButton:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.platformIcon {
+  font-size: 24px;
+}
+
+.platformName {
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  color: #2D3436;
+}
+
+.copyLinkButton {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #4ECDC4;
+  color: #FFFFFF;
+  font-family: '思源黑体', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.copyLinkButton:hover {
+  background: #45B7B0;
+}
+
+.copySuccess {
+  position: absolute;
+  right: 12px;
+  background: #2D3436;
+  color: #FFFFFF;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.qrModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.qrContent {
+  background: #FFFFFF;
+  padding: 24px;
+  border-radius: 12px;
+  text-align: center;
+  position: relative;
+}
+
+.closeButton {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: #636E72;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .platformButtons {
+    gap: 12px;
+  }
+  
+  .platformButton {
+    padding: 12px;
+  }
+  
+  .statValue {
+    font-size: 20px;
+  }
+} 

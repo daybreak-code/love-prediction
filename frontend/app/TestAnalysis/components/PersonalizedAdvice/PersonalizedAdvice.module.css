@@ -1,0 +1,165 @@
+.container {
+  padding: 24px;
+}
+
+.title {
+  font-family: '思源黑体', sans-serif;
+  font-size: 24px;
+  color: #2D3436;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.filterButton {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 20px;
+  background: #F0F0F0;
+  color: #636E72;
+  font-family: '思源黑体', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.filterButton.active {
+  background: var(--accent-color);
+  color: #FFFFFF;
+}
+
+.adviceGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+}
+
+.adviceCard {
+  background: #FFFFFF;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-top: 4px solid var(--card-color);
+  transition: transform 0.3s ease;
+}
+
+.adviceCard:hover {
+  transform: translateY(-4px);
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.typeIcon {
+  font-size: 24px;
+}
+
+.cardTitle {
+  flex: 1;
+  font-family: '思源黑体', sans-serif;
+  font-size: 18px;
+  color: #2D3436;
+  margin: 0;
+}
+
+.cardActions {
+  display: flex;
+  gap: 8px;
+}
+
+.actionButton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  transition: transform 0.2s ease;
+}
+
+.actionButton:hover {
+  transform: scale(1.1);
+}
+
+.description {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #636E72;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.actionList {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.actionItem {
+  font-family: '思源宋体', sans-serif;
+  font-size: 14px;
+  color: #2D3436;
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.actionItem::before {
+  content: '•';
+  position: absolute;
+  left: 8px;
+  color: var(--card-color);
+}
+
+.priority {
+  font-family: '思源黑体', sans-serif;
+  font-size: 12px;
+  color: #636E72;
+}
+
+.priority-high {
+  color: #FF6B6B;
+  font-weight: bold;
+}
+
+.priority-medium {
+  color: #FFD93D;
+  font-weight: bold;
+}
+
+.priority-low {
+  color: #4ECDC4;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 16px;
+  }
+  
+  .filters {
+    padding-bottom: 12px;
+  }
+  
+  .adviceGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .adviceCard {
+    padding: 16px;
+  }
+} 
